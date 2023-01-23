@@ -19,10 +19,10 @@ def PerfectNumbers(number):
         print(number)
     else:
         print("not a perfect number")
-        print(sum)
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-   PerfectNumbers(28)
+   PerfectNumbers(29)
 
 
