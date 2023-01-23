@@ -10,7 +10,7 @@ from math import sqrt
 
 def PerfectNumbers(number):
     sum = 0
-    for i in range(2, int(math.ceil(sqrt(number)))):
+    for i in range(2, math.ceil(sqrt(number))):
 
         if int(number) % i == 0:
             sum += i+(number/i)
@@ -23,6 +23,7 @@ def PerfectNumbers(number):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-   PerfectNumbers(29)
+    for i in range(497):
+        PerfectNumbers(i)
 
 
