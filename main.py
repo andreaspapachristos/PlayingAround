@@ -1,7 +1,7 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+"""
+Πρόκειται για μια συνάρτηση που υπολογίζει τους "τέλειους" αριθμούς. Έναυσμα για αυτό ήταν η πρώτη μου επαφή με το
+chatGPT στο οποίο "ζήτησα" να μου γραψει την συναρτηση και νομίζω ότι δεν ήταν η βέλτιση λύση
+"""
 import math
 from math import sqrt
 
@@ -23,7 +23,7 @@ def PerfectNumbers(number):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    for i in range(497):
+    for i in range(49):
         PerfectNumbers(i)
 
 
