@@ -23,4 +23,5 @@ if __name__ == "__main__":
 
     '''
     the above solution (function prime_digit_not_prime) is made og chatGPT but i think it is not working.... Where is the bug????
+    Found it!!!!
     '''
