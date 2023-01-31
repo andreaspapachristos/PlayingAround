@@ -8,7 +8,7 @@ From :https://www.codewars.com/kata/5a9a70cf5084d74ff90000f7
 def prime_digit_not_prime(a, b):
   result = []
   for num in range(a, b):
-    if all(int(digit) in [2, 3, 5, 7] for digit in str(num)) and not all(num % i == 0 for i in range(2, num)):
+    if all(int(digit) in [2, 3, 5, 7] for digit in str(num)) and not all(num % i != 0 for i in range(2, num)):
       result.append(num)
   return result
 
